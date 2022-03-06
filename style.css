@@ -3,3 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.cookie-container{
+  width: 700px;
+  height: 200px;
+  background: linear-gradient(45deg,rgb(63, 31, 1),rgb(136, 62, 2));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+
+.text{
+  padding-left: .5rem;
+}
+
+.cookie-title{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cookie-subtitle{
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  margin-top: 1rem;
+}
+
+button{
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5px;
+  background: rgb(218, 171, 17);
+  border: solid transparent;
+  transition: .3s ease-out;
+  margin-top: 1rem;
+}
+
+button:hover{
+  opacity: .5;
+}
